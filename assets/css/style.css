@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.m3 {
+    width: 100%;
+    min-height: 634px;
+    background: url('/assets/img/Linh.jpg') top center / cover no-repeat;
+    position: relative;
+}
+
+.m3-body {
+    color: #fff;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.m3-clock {
+    font-size: 65px;
+    margin: 16px 0;
+}
+
+.m3 i {
+    font-size: 30px;
+}
+
+.m3-time {   
+     margin: 16px 0;
+}
+
+.m3-btn {
+    width: 100%;
+    border: none;
+    margin-top: 150px;
+    color: #000;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.m3-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+.m3-footer i{
+    color: #fff;
+    float: right;
+    margin-right: 25px;
+    margin-top: 140px;
+    font-size: 24px;
+}
+
+.m4 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: url('/assets/img/Linh1.jpg')top center / cover no-repeat;
+    color: #fff;
+    display: none;
+}
+
+.m4.open {
+    display: flex;
+}
+
+.m4-heading {
+    display: flex;
+    margin: 10px 4px;
+    font-size: 18px;
+}
+
+.m4-heading .ti-bar-chart {
+    margin-left: 283px;
+}
+
+.m4-search {
+    width: 100%;
+    height: 32px;
+    border: none;
+    opacity: 0.6;
+    border-radius: 15px;
+    color: #000;
+}
+
+.m4-body {
+    height: 500px;
+}
+
+.m4-body1 {
+    margin: 44px 0;
+}
+
+.m4-body2 {
+    padding: 32px 0;
+}
+
+.m4-body3 {
+    float: left;
+    text-align: center;
+    width: 33.3333%;
+}
+
+.m4-body3 i {
+    font-size: 44px;
+}
+
+.m4-btn {
+    color: #fff;
+    padding: 8px;
+    border-radius: 20px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+}
+
+.m4-btn:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+}
+
+.m4-footer1 {
+    background-color: #fff;
+    color: #000;
+    float: left;
+    width: 33.3333%;
+    padding: 16px 0;
+}
+
+.m4-footer1 i{
+    padding: 0 59px;
+    font-size: 20px;
+}
+
+.m4-footer-forward:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
