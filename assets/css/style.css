@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.color {
+    color: #000 !important; 
+}
+
 .clear {
     clear: both;
 }
