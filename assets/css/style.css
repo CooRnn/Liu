@@ -10,21 +10,20 @@
 
 .m3 {
     position: relative;
-    /* background: url('/assets/img/Linh2.jpg') top center / cover no-repeat; */
-    background-color: aqua;
-    width: 720px;
-    height: 960px;
+    background: url('/assets/img/Linh2.jpg') top center / cover no-repeat;
+    /* background-color: aqua; */
+    width: 400px;
+    height: 625px;
 }
 
-/* .m3-body {
-    position: absolute;
+.m3-body {
     color: #fff;
     min-height: 200px;
     text-align: center;
     padding-top: 75px;
-} */
+}
 
-/* .m3-clock {
+.m3-clock {
     font-size: 65px;
     margin: 16px 0;
 }
@@ -57,7 +56,7 @@
     margin-right: 25px;
     margin-top: 140px;
     font-size: 24px;
-} */
+}
 
 .m4 {
     position: fixed;
@@ -66,6 +65,8 @@
     top: 0;
     bottom: 0;
     background: url('/assets/img/Linh1.jpg')top center / cover no-repeat;
+    width: 400px;
+    height: 625px;
     color: #fff;
     display: none;
 }
