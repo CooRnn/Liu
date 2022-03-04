@@ -4,17 +4,13 @@
     box-sizing: border-box;
 }
 
-.color {
-    color: #000 !important; 
-}
-
 .clear {
     clear: both;
 }
 
 .m3 {
     position: relative;
-    background: url('/assets/img/la.jpg') top center / cover no-repeat;
+    background: url('/assets/img/Linh3.png') top center / cover no-repeat;
     width: 400px;
     height: 625px;
 }
@@ -67,10 +63,9 @@
     left: 0;
     top: 0;
     bottom: 0;
-    /* background: url('/assets/img/Linh1.jpg')top center / cover no-repeat; */
-    background-color: aqua;
-    
-    width: 400px;
+    background: url('/assets/img/Linh1.jpg')top center / cover no-repeat;
+    /* background-color: aqua; */
+    width: 416px;
     height: 625px;
     color: #fff;
     display: none;
