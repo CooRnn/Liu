@@ -9,20 +9,20 @@
 }
 
 .m3 {
-    width: 100%;
-    min-height: 634px;
-    background: url('/assets/img/Linh2.jpg') top center / cover no-repeat;
     position: relative;
+    background: url('/assets/img/Linh2.jpg') top center / cover no-repeat;
+    padding-top: 100%;
 }
 
-.m3-body {
+/* .m3-body {
+    position: absolute;
     color: #fff;
     min-height: 200px;
     text-align: center;
     padding-top: 75px;
-}
+} */
 
-.m3-clock {
+/* .m3-clock {
     font-size: 65px;
     margin: 16px 0;
 }
@@ -55,7 +55,7 @@
     margin-right: 25px;
     margin-top: 140px;
     font-size: 24px;
-}
+} */
 
 .m4 {
     position: fixed;
