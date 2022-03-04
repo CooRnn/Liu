@@ -127,14 +127,13 @@
     border-radius: 20px;
 }
 
-.m4-btn:hover {
+.m4-body3:hover {
     background-color: rgba(255, 255, 255, 0.3);
     color: #000;
 }
 
 .m4-footer {
     margin: 90px 0;
-    
 }
 
 .m4-footer1 {
@@ -267,6 +266,122 @@
     color: #000;
 }
 
+#m5 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 1);
+    width: 416px;
+    height: 720px;
+    color: #fff;
+    display: none;
+}
+
+#m5.open {
+    display: flex;
+}
+
+.m5-container {
+    margin: 12px;
+    animation: modalFadeIn2 ease 0.8s;
+}
+
+.m5-heading {
+    font-size: 35px;
+}
+
+.m5-heading i {
+    float: right;
+    margin: 4px;
+}
+
+.m5-img-heading {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.m5-body {
+    width: 100%;
+    min-height: 150px;
+    margin: 16px 0;
+}
+
+.m5-input {
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 6%;
+
+}
+
+.m5-body i {
+    float: left;
+    margin-top: 24px;
+    font-size: 60px;
+}
+
+.m5-video {
+    margin-top: 90px;
+}
+
+.m5-main {
+    display: flex;
+    margin-top: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
+}
+
+.m5-Liu {
+    margin-left: 24px;
+    font-size: 32px;
+}
+
+.ti-apple {   
+     font-size: 32px;
+}
+
+.m5-mess {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+.m5-img-main {
+    width: 15%;
+    border-radius: 50%;
+}
+
+.ti-check-box {
+    position: absolute;
+    font-size: 16px;
+    margin-left: 375px;
+    margin-top: 40px;
+}
+
+.m5-footer {
+    margin-top: 338px;
+}
+
+.m5-f1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    float: left;
+    width: 33.3333%;
+    padding: 16px 0;
+}
+
+.m5-f1 i{
+    padding: 0 59px;
+    font-size: 20px;
+}
+
+.m5-f1:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 @keyframes modalFadeIn{
     from {
         transform: translateY(-300px);
@@ -278,7 +393,16 @@
     }
 }
 
-
+@keyframes modalFadeIn2{
+    from {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
 
 
