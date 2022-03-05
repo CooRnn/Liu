@@ -161,7 +161,8 @@
     bottom: 0;
     width: 416px;
     height: 720px;
-    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 1); */
+    background: url('/assets/img/Linh3.jpg')top center / cover no-repeat;
     align-items: center;
     justify-content: center;
     display: flex;
