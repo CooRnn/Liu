@@ -422,7 +422,7 @@
 .m6-body {
     position: relative;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 248px;
 }
 
 .m6-body-avatar {
@@ -499,6 +499,34 @@
 }
 
 .m6-footer {
+    position: relative;
+}
+
+.m6-footer i {
+    color: rgb(236, 61, 61);
+    font-size: 19px;
+    letter-spacing: 12px;
+
+}
+
+.m6-footer .ti-face-smile {
+    position: absolute;
+    right: 24px;
+    top: 3px;
+}
+
+.m6-footer .ti-heart {
+    position: absolute;
+    right: -16px;
+    top: 3px;
+}
+
+.m6-input {
+    border: none;
+    border-radius: 15px;
+    height: 28px;
+    width: 218px;
+    font-size: 12px;
 }
 
 @keyframes modalFadeIn1{
