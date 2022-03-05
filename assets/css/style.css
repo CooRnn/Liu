@@ -414,15 +414,18 @@
     margin-right: 28px;
 }
 
-.m6-heading i:hover {
-    background-color: rgba(199, 193, 193, 0.7);
-    border-radius: 50%;
+.m6-heading i:hover {  
+    color: #fff;
+}
+
+.m6-about {
+    margin-bottom: 24px;
+    margin-top: 224px;
 }
 
 .m6-body {
     position: relative;
     text-align: center;
-    margin-top: 248px;
 }
 
 .m6-body-avatar {
@@ -527,6 +530,10 @@
     height: 28px;
     width: 218px;
     font-size: 12px;
+}
+
+.m6-footer i:hover {
+    color: #fff;
 }
 
 @keyframes modalFadeIn1{
