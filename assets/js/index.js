@@ -12,6 +12,10 @@ const man5 = document.querySelector('.js-m5');
 const closeMan5 = document.querySelector('.js-m5-forward');
 const openMan5 = document.querySelector('.js-instagram');
 
+const man6 = document.querySelector('.js-m6');
+const closeMan6 = document.querySelector('.js-m6-close');
+const openMan6 = document.querySelector('.js-m5-main');
+
 // màn 4 
 function showM4() {
     man4.classList.add('open');
@@ -48,4 +52,14 @@ man1.addEventListener('click', showM1);
 openMan5.addEventListener('click', showM5);
 closeMan5.addEventListener('click', offM5);
 
+// màn 6
 
+function showM6() {
+    man6.classList.add('open');
+}
+function offM6() {
+    man6.classList.remove('open');
+}
+
+openMan6.addEventListener('click', showM6);
+closeMan6.addEventListener('click', offM6);
