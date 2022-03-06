@@ -773,6 +773,27 @@ table {
     color: rgb(236, 61, 61);
 }
 
+.m9-button {
+    margin-top: 35px;
+}
+
+.m9-footer1 {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000;
+    float: left;
+    width: 33.3333%;
+    padding: 16px 0;
+}
+
+.m9-footer1 i{
+    padding: 0 59px;
+    font-size: 20px;
+}
+
+.m9-footer1:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 @keyframes modalFadeIn1{
     from {
         transform: translateY(-500px);
