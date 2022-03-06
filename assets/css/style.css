@@ -285,7 +285,7 @@
 
 .m5-container {
     margin: 12px;
-    animation: modalFadeIn2 ease 0.8s;
+    animation: modalFadeIn3 ease 0.8s;
 }
 
 .m5-heading {
@@ -332,6 +332,11 @@
     margin-top: 24px;
     color: rgba(255, 255, 255, 0.6);
     position: relative;
+}
+
+.m5-main:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
 }
 
 .m5-Liu {
@@ -400,7 +405,7 @@
 
 .m6-container {
     padding: 16px;
-    animation: modalFadeIn2 ease 2s;
+    animation: modalFadeIn3 ease 2s;
 }
 
 .m6-heading {
@@ -564,7 +569,7 @@
 
 .m7-container {
     position: relative;
-    /* animation: modalFadeIn1 ease 5s; */
+    animation: modalFadeIn3 ease 5s;
 
 }
 
@@ -629,6 +634,145 @@ table {
     color: #000;
 }
 
+#m8 {
+
+}
+
+#m9 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgb(247, 219, 186);
+    width: 416px;
+    height: 720px;
+    display: flex;
+}
+
+.m9-container {
+    margin: 12px;
+}
+
+.m9-title {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+}
+
+.m9-title-fb {
+    color: #3675fc;
+}
+
+.m9-title .ti-instagram {
+    position: absolute;
+    right: 0;
+}
+
+.m9-title .ti-search {
+    position: absolute;
+    right: 40px;
+}
+
+.m9-sub-heading i{
+    float: left;
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    margin-top: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#m9 i:hover, 
+.m9-body .m9-main-comment:hover{
+    color: #3675fc;
+}
+
+#m9 .ti-heart:hover {
+    color:rgb(236, 61, 61);
+}
+
+.m9-body {
+    margin-top: 40px;
+}
+
+.m9-body-top {
+    display: flex;
+    position: relative;
+}
+
+.m9-img {
+    width: 10%;
+    border-radius: 50%;
+}
+
+.m9-DinhHieu, .m9-LinhThuy {
+    margin-left: 8px;
+    font-size: 17px;
+}
+
+.m9-with {
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.m9-body-top .ti-more-alt {
+    position: absolute;
+    right: 20px;
+}
+
+.m9-body-top .m9-time {
+    position: absolute;
+    bottom: 0;
+    left: 48px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.m9-main-img {
+    width: 50%;
+    float: left;
+}
+
+.m9-cap {
+    margin-top: 12px;
+}
+
+.m9-main {
+    margin-top: 12px;
+}
+
+.m9-main img {
+    border-radius: 15px;
+}
+
+.m9-comments {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 344px;
+    padding-bottom: 10px;
+}
+
+.m9-main-comment {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+.m9-footer {
+    margin-top: 12px;
+}
+
+.m9-footer i{
+    float: left;
+    text-align: center;
+    width: 33.3333%;
+}
+
+.m9-footer .ti-heart {
+    color: rgb(236, 61, 61);
+}
+
 @keyframes modalFadeIn1{
     from {
         transform: translateY(-500px);
@@ -640,9 +784,9 @@ table {
     }
 }
 
-@keyframes modalFadeIn2{
+@keyframes modalFadeIn3{
     from {
-        transform: translateX(-300px);
+        transform: translateX(0);
         opacity: 0;
     }
     to {
@@ -650,8 +794,6 @@ table {
         opacity: 1;
     }
 }
-
-
 
 
 
