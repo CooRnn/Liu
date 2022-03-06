@@ -20,6 +20,10 @@ const man7 = document.querySelector('.js-m7');
 const closeMan7 = document.querySelector('.js-m7-close');
 const openMan7 = document.querySelector('.js-google');
 
+const man9 = document.querySelector('.js-m9');
+const openMan9 = document.querySelector('.js-fb');
+const closeMan9 = document.querySelector('.js-m9-forward');
+
 // màn 4 
 function showM4() {
     man4.classList.add('open');
@@ -80,7 +84,19 @@ function offMan7() {
 openMan7.addEventListener('click', showMan7);
 closeMan7.addEventListener('click', offMan7);
 
+// màn 8
 
+// màn 9
+
+function showM9() {
+    man9.classList.add('open');
+}
+function offM9() {
+    man9.classList.remove('open');
+}
+
+openMan9.addEventListener('click', showM9);
+closeMan9.addEventListener('click', offM9);
 
 
 

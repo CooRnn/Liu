@@ -117,6 +117,18 @@
     width: 33.3333%;
 }
 
+.m4-body .ti-google {
+    color: teal;
+}
+
+.m4-body .ti-instagram {
+    color: #f033b1;
+}
+
+.m4-body .ti-facebook {
+    color: #3675fc;
+}
+
 .m4-body3 i {
     font-size: 44px;
 }
@@ -647,11 +659,16 @@ table {
     background-color: rgb(247, 219, 186);
     width: 416px;
     height: 720px;
+    display: none;
+}
+
+#m9.open {
     display: flex;
 }
 
 .m9-container {
     margin: 12px;
+    animation: modalFadeIn3 ease 5s;
 }
 
 .m9-title {
