@@ -76,10 +76,6 @@
     display: none;
 }
 
-.m4.open {
-    display: flex;
-}
-
 .m4-heading {
     display: flex;
     margin: 10px 4px;
@@ -179,7 +175,8 @@
     display: flex;
 }
 
-#m1.close {
+#m1.close,
+#m2.close {
     display: none;
 }
 
@@ -217,10 +214,6 @@
     align-items: center;
     justify-content: center;
     display: flex;
-}
-
-#m2.close {
-    display: none;
 }
 
 .m2-container {
@@ -289,10 +282,6 @@
     height: 720px;
     color: #fff;
     display: none;
-}
-
-#m5.open {
-    display: flex;
 }
 
 .m5-container {
@@ -409,10 +398,6 @@
     width: 416px;
     height: 720px;
     display: none;
-}
-
-#m6.open {
-    display: flex;
 }
 
 .m6-container {
@@ -575,10 +560,6 @@
     display: none;
 }
 
-#m7.open {
-    display: flex;
-}
-
 .m7-container {
     position: relative;
     animation: modalFadeIn3 ease 5s;
@@ -614,6 +595,7 @@
 
 .m7-img {
     width: 15%;
+    text-align: center;
 }
 
 table, th, td {
@@ -622,6 +604,9 @@ table, th, td {
   
 table {
     width: 100%;
+    background-color: #74A12E;
+    color: #fff;
+    border: 4px solid teal;
 }
 
 .m7-history {
@@ -647,7 +632,59 @@ table {
 }
 
 #m8 {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 416px;
+    height: 720px;
+    background-color: rgb(247, 219, 186);
+    display: none;
+}
 
+.m8-body {
+    text-align: center;
+}
+
+.m8-main{
+    border: 4px solid teal;
+    background-color: #74A12E;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.m8-title {
+    text-align: center;
+}
+
+.m8-desc,
+.m8-done,
+.m8-speech1 {
+    border-bottom: 2px solid teal;
+}
+
+.m8-speech3 {
+    text-align: center;
+}
+
+#m81-img-show {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 416px;
+    height: 720px;
+    background-color: #000;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.m81-container .m81-img{
+    width: 50%;
+    float: left;
 }
 
 #m9 {
@@ -660,10 +697,6 @@ table {
     width: 416px;
     height: 720px;
     display: none;
-}
-
-#m9.open {
-    display: flex;
 }
 
 .m9-container {
@@ -826,6 +859,13 @@ table {
     display: none;
 }
 
+.m4.open,
+#m5.open,
+#m6.open,
+#m7.open,
+#m8.open,
+#m81-img-show.open, 
+#m9.open,
 #img1.open,
 #img2.open {
     display: flex;
@@ -857,7 +897,3 @@ table {
         opacity: 1;
     }
 }
-
-
-
-

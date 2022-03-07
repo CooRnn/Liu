@@ -19,6 +19,13 @@ const man7 = document.querySelector('.js-m7');
 const closeMan7 = document.querySelector('.js-m7-close');
 const openMan7 = document.querySelector('.js-google');
 
+const man8 = document.querySelector('.js-m8');
+const openMan8 = document.querySelector('.js-m7-open');
+const closeMan8 = document.querySelector('.js-m8-return');
+
+const man81 = document.querySelector('.js-m81-img-show');
+const openMan81 = document.querySelector('.js-m8-img');
+
 const man9 = document.querySelector('.js-m9');
 const openMan9 = document.querySelector('.js-fb');
 const closeMan9 = document.querySelector('.js-m9-forward');
@@ -66,7 +73,6 @@ openMan5.addEventListener('click', showM5);
 closeMan5.addEventListener('click', offM5);
 
 // màn 6
-
 function showM6() {
     man6.classList.add('open');
 }
@@ -78,7 +84,6 @@ openMan6.addEventListener('click', showM6);
 closeMan6.addEventListener('click', offM6);
 
 // màn 7 
-
 function showMan7() {
     man7.classList.add('open');
 }
@@ -90,9 +95,28 @@ openMan7.addEventListener('click', showMan7);
 closeMan7.addEventListener('click', offMan7);
 
 // màn 8
+function showM8() {
+    man8.classList.add('open');
+}
+function offM8() {
+    man8.classList.remove('open');
+}
+
+openMan8.addEventListener('click', showM8);
+closeMan8.addEventListener('click', offM8);
+
+// màn 81
+function showM81() {
+    man81.classList.add('open');
+}
+function offM81() {
+    man81.classList.remove('open');
+}
+
+openMan81.addEventListener('click', showM81);
+man81.addEventListener('click', offM81);
 
 // màn 9
-
 function showM9() {
     man9.classList.add('open');
 }
