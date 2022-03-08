@@ -172,7 +172,7 @@
     background-color: rgba(0, 0, 0, 1);
     align-items: center;
     justify-content: center;
-    display: flex;
+    display: none;
 }
 
 #m1.close,
@@ -507,7 +507,7 @@
 .m6-main i {
     float: right;
     position: absolute;
-    top: 146px;
+    top: 147px;
     right: -11px;
     font-size: 11px;
     color: rgb(236, 61, 61);
