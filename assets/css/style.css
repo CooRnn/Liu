@@ -507,8 +507,8 @@
 .m6-main i {
     float: right;
     position: absolute;
-    top: 147px;
-    right: -11px;
+    bottom: 0;
+    right: -10px;
     font-size: 11px;
     color: rgb(236, 61, 61);
 }
