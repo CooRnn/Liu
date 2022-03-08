@@ -148,24 +148,3 @@ function offimg2() {
 
 openimg2.addEventListener('click', showimg2);
 img2.addEventListener('click', offimg2);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
